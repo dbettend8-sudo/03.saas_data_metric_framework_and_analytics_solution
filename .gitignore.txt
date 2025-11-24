@@ -1,0 +1,9 @@
+# Ignore system & IDE files
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.venv/
+__pycache__/
+*.pyc
