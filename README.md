@@ -40,7 +40,7 @@ All KPIs are documented in a centralized dictionary. This is not just a list, bu
 ### 3. Integrated Documentation
 To bridge the gap between technical logic and business users, the Power BI report includes an embedded documentation page.
 
-<img src="img/dashboard_about.png" width="500" alt="About This Report Page">
+<img src="img/dashboard_about.png" width="800" alt="About This Report Page">
 
 ---
 
@@ -97,5 +97,6 @@ This project demonstrates that a Senior Data Analyst's role is to **enable other
 3.  **Usability:** The dashboard design prioritizes clear business questions over complex data dumps.
 
 ---
+
 
 *Note: The dataset used (RavenStack) is synthetic and generated for demonstration purposes.*
