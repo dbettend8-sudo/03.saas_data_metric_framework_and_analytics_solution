@@ -2,8 +2,8 @@
 
 ### A holistic approach to Product Intelligence: From raw data ingestion to governed, self-service insights.
 
-## Project Overview
-In the SaaS landscape, data volume is rarely the problem—data **trust** is. This project simulates a complete analytics solution for "RavenStack" (a B2B SaaS platform). 
+## Project Vision & Overview
+In the SaaS landscape, data volume is rarely the problem—data **trust** is. This project simulates a complete analytics solution for "RavenStack" (a B2B SaaS platform).
 
 The goal was to move beyond ad-hoc reporting to build a **scalable data product**. This involves not just the technical execution (ETL, Data Modeling), but the **governance layer** that ensures metrics like *Active Usage* and *Churn* are defined, cataloged, and trusted across the organization.
 
@@ -14,23 +14,28 @@ The goal was to move beyond ad-hoc reporting to build a **scalable data product*
 
 ---
 
-## Governance & Methodology
+## 🛡️ Governance & Methodology
 
-This solution prioritizes **Metric Consistency** over speed. To prevent the "report chaos" where different teams calculate KPIs differently, I designed a comprehensive Governance Framework.
+This solution prioritizes **Metric Consistency** over speed. To prevent the "report chaos" where different teams calculate KPIs differently, I designed a comprehensive Governance Framework that treats data as a product.
 
 ### 1. The Metrics Development Lifecycle
-I defined a strict workflow to ensure no metric reaches the dashboard without validation.
+I defined a strict workflow to ensure no metric reaches the dashboard without validation. This moves the organization from "Wild West" reporting to a certified release process.
+
 * **Define:** Governance Lead and Business Owner agree on the business question and "Grain" (aggregation level).
 * **Validate:** Logic is tested against raw data; edge cases (e.g., churn vs. expiration) are documented.
 * **Publish:** The metric is "Certified" in the catalog and pushed to the Gold Layer.
-* **Monitor:** Periodic reviews of metric usage and "Trust Scores" from stakeholders.
+
+![Governance Workflow](img/doc_governance_workflow.png)
 
 ### 2. The Metrics Catalog
-All KPIs are documented in a centralized dictionary. This is not just a list, but a functional tool for stakeholders.
-* **Artifact:** [Metrics Catalog](metrics_docs/Metrics_Catalog.xlsx)
-* **Key Attributes Tracked:** Owner, Calculation Logic, Source Table, Refresh Frequency, and Data Lineage.
+All KPIs are documented in a centralized dictionary. This is not just a list, but a functional tool for stakeholders to understand the "Why" and "How" behind every number.
 
-### 3. Integrated Documentation ("About This Report")
+* **Artifact:** [Metrics Catalog](metrics_docs/Metrics_Catalog.xlsx)
+* **Strategic Value:** Connects technical calculation logic (SQL/DAX) with business ownership and value definitions.
+
+![Metrics Catalog Preview](img/doc_metrics_catalog.png)
+
+### 3. Integrated Documentation
 To bridge the gap between technical logic and business users, the Power BI report includes an embedded documentation page.
 
 <img src="img/dashboard_about.png" width="500" alt="About This Report Page">
