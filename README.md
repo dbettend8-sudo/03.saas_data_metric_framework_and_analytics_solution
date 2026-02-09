@@ -81,6 +81,13 @@ The central visual highlights the lag between a user starting a trial and conver
 
 ![Dashboard Overview](img/dashboard_adoption.png)
 
+> **Note**
+>  
+> I understand that using three pie charts is not ideal for analysing evolution over time or for making direct comparisons. This criticism is fair. However, that was not the intention of this view.
+>  
+> The goal here is to present three **independent snapshots** (current month, last year, and year-to-date), almost like a colour-coded table: a quick way to read the state and distribution at specific reference points, rather than a tool for comparison or trend analysis.
+
+
 ### View 2: Engagement & The "Sticky" Features
 Retention is the lifeblood of SaaS. This view moves beyond seeing *if* users are logging in, and digs into *what* they are doing when they get there.
 
@@ -100,3 +107,4 @@ This project demonstrates that a Senior Data Analyst's role is to **enable other
 
 
 *Note: The dataset used (RavenStack) is synthetic and generated for demonstration purposes.*
+
